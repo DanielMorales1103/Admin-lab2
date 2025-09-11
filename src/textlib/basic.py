@@ -28,7 +28,7 @@ def count_vowels(s: str) -> int:
     # Quitamos acentos para simplificar el conteo e incluimos 'ü'
     base = _strip_accents(s).lower().replace("ü", "u")
     vowels = set("aeiou")
-    return sum(1 for ch in base if ch in vowels)
+    return 0
 
 def is_palindrome(s: str) -> bool:
     """
